@@ -5,3 +5,8 @@
 /resources/
 public/
 assets/jsconfig.json
+
+# InfraGov
+.hugo_build.lock
+go.sum
+hugo

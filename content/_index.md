@@ -8,15 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        InfraGov Project
       image:
-        filename: welcome.jpg
+        filename: InfraGov-Logo-300dpi.png
       text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        We are building a language-agnostic solution for reliable analysis and automated repair for Infrastructure as Code that also uses recent AI developments for reducing the time from vulnerability disclosure to mitigation.
   
+        {{% cta cta_link="./about/" cta_text="Learn more" %}}
   - block: collection
     content:
       title: Latest News
@@ -36,35 +34,16 @@ sections:
       view: card
       columns: '1'
   
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
   - block: collection
     content:
-      title: Latest Preprints
+      title: Featured Publications
       text: ""
       count: 5
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        #publication_type: 'article'
+        featured_only: true
     design:
       view: citation
       columns: '1'
@@ -77,4 +56,26 @@ sections:
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
       columns: '1'
+
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: footer.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
+
+
 ---

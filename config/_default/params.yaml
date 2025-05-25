@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'InfraGov Project'
+    description: 'Working with Portuguese Public Administration partners, we are building a language-agnostic solution for reliable analysis and automated repair for Infrastructure as Code that also uses recent AI developments for reducing the time from vulnerability disclosure to mitigation.'
+    twitter: 'jff'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} InfraGov Project. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
