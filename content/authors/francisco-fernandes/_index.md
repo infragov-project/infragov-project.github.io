@@ -47,7 +47,7 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
-homepage: 
+homepage: https://www.linkedin.com/in/francisco-js-fernandes/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
